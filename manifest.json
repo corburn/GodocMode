@@ -1,0 +1,15 @@
+{
+    "name" : "GodocMode",
+    "version" : "0.0.0.1",
+    "description" : "Show documentation for all declarations on golang.org",
+    "background" : {
+        "scripts": ["background.js"],
+        "persistent": false
+    },
+    "permissions": [
+        "declarativeWebRequest",
+        "https://*/*"
+    ],
+    "manifest_version": 2
+}
+
